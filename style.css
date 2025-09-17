@@ -1,9 +1,33 @@
-* {
-  outline: 2px solid red;
+
+
+html {
+  --button-color:#596D48;
+  padding: 0;
+  margin: 0;
 }
 
-div {
-  width: 500px;
-  height: 500px;
-  background-color: green;
+.wrapper {
+  background-color: gray;
+  display: flex;
+  height: 97vh;
+}
+
+div.image {
+  background-image: url(./Files/images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  flex: auto;
+}
+div.logo {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+  width: inherit;
+  height: 20vh;
+}
+
+div.main {
+  flex: 3;
 }
